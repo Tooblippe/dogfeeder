@@ -75,14 +75,14 @@ void setup()
   
   // Tell the numbers below we are online now
   sms.beginSMS("0823020106");
-  sms.print("Trevor Inc, Dogfeeder now online. Send SMS with  # as start to activate feeding. Dog feeder available at 0813607553");
+  sms.print("Trevor Inc, Dogfeeder now online. Send SMS with  # as start to activate feeding. Dog feeder available");
   sms.endSMS(); 
-  Serial.println("Welcome SMS sent to Tobie");
+  Serial.println("Welcome SMS sent to Trevor");
   Serial.println("READY");
   Serial.println("==============================="); 
  
  sms.beginSMS("0798979035");
- sms.print("Trevor Inc, Dogfeeder now online. Send SMS with  # as start to activate feeding. Dog feeder available at 0813607553");
+ sms.print("Trevor Inc, Dogfeeder now online. Send SMS with  # as start to activate feeding. Dog feeder available");
  sms.endSMS(); 
  Serial.println("Welcome SMS sent to Tobie");
  Serial.println("READY");
